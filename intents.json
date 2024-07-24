@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "Como estas",
+        "Que tal?",
+        "Alo",
+        "Buen dia",
+        "Buenos dias",
+        "Buenas tardes",
+        "Buenas noches"
+      ],
+      "responses": [
+        "Hola :D",
+        "Hola, ¿Cómo te puedo ayudar?",
+        "Hola, ¿En que puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Chao", "Adios", "Hasta luego"],
+      "responses": [
+        "Hasta luego, un gusto ayudarte",
+        "Un gusto ayudarte, buen día",
+        "¡Adiós!, un gusto ayudarte"
+      ]
+    },
+    {
+      "tag": "gracias",
+      "patterns": ["Gracias", "Gracias a ti", "Eso es útil", "Muchas gracias"],
+      "responses": ["No hay de qué! ¡Siempre a tu servicio!", "¡De nada!, ¡Estoy aquí para ayudarte!", "¡Fue un placer ayudarte!"]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "¿Cuáles son los puntos de contacto?",
+        "¿Qué puntos de contacto hay?"
+      ],
+      "responses": [
+        "Contamos con Centro de ayuda para tu autogestión o las líneas de atención Konecta: En bogotá (601) 390-7461 o En medellín (604) 604-4924"
+      ]
+    },
+    {
+      "tag": "ingreso",
+      "patterns": [
+        "¿Cómo puedo ingresar a sala de venta?", 
+        "¿Cuál es el link de sala de ventas?"
+      ],
+      "responses": [
+        "1. Ingrese al enlace https://saladeventas.apps.bancolombia.com/ \n2. Digita el usuario (correo electrónico) y la contraseña asignados. \nNota: Si es la primera vez que ingresa, al correo registrado se enviará una contraseña temporal"
+      ]
+    },
+    {
+      "tag": "centro_ayuda",
+      "patterns": [
+        "¿Dónde encuentro el centro de ayuda?", 
+        "¿Dónde esta el centro de ayuda?", 
+        "¿Cuál es el centro de ayuda?"
+      ],
+      "responses": [
+        "Accede al Centro de Ayuda a través del botón Ayuda, ubicado en la parte superior de tu pantalla. \nEn este centro cuentas con preguntas frecuentes y demás información que te permitirá aclarar o ampliar tus conocimientos sobre las funcionalidades disponibles en el Link Sala de Ventas"
+      ]
+    },
+    {
+      "tag": "clave_temporal",
+      "patterns": [
+        "¿Cómo puedo cambiar la clave temporal?", 
+        "¿Cómo puedo cambiar la contraseña temporal?",
+        "¿Qué es la contraseña temporal?",
+        "¿Cómo gestiono la contraseña temporal?"
+      ],
+      "responses": [
+        "Al ser la primera vez que ingresas a la herramienta, se te asignó una contraseña temporal enviada al correo registrado, la cual encontrarás en la comunicación de bienvenida a la herramienta. Una vez ingreses esta clave temporal, se solicitará automáticamente un cambio de contraseña. \n\nCondiciones necesarias para que la contraseña nueva sea habilitada: \n\n✓ mínimo diez (10) caracteres. \n✓ Una letra minúscula \n✓ Una letra mayúscula \n✓ Un dígito o un carácter especial (*/|#)."
+      ]
+    }
+  ]
+}
