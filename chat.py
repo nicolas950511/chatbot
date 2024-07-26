@@ -1,8 +1,6 @@
 import random
 import json
-
 import torch
-
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
@@ -40,22 +38,19 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.80:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "No comprendo.."
-
+    return "No comprendo tu pregunta. ¿Podrías reformularla o proporcionar más detalles?"
 
 if __name__ == "__main__":
     print("¡Charlemos! (escriba 'salir' para salir)")
     while True:
-        # sentence = "do you use credit cards?"
         sentence = input("You: ")
         if sentence == "salir":
             break
 
         resp = get_response(sentence)
         print(resp)
-
