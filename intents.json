@@ -5,23 +5,24 @@
       "patterns": [
         "Hola",
         "Hey",
-        "Como estas",
-        "Que tal?",
+        "¿Cómo estás?",
+        "¿Qué tal?",
         "Alo",
-        "Buen dia",
-        "Buenos dias",
+        "Buen día",
+        "Buenos días",
         "Buenas tardes",
-        "Buenas noches"
+        "Buenas noches",
+        "¿Qué hay?"
       ],
       "responses": [
         "Hola :D",
         "Hola, ¿Cómo te puedo ayudar?",
-        "Hola, ¿En que puedo ayudarte?"
+        "Hola, ¿En qué puedo ayudarte?"
       ]
     },
     {
       "tag": "despedida",
-      "patterns": ["Chao", "Adios", "Hasta luego"],
+      "patterns": ["Chao", "Adiós", "Hasta luego", "Nos vemos", "Adiós, gracias"],
       "responses": [
         "Hasta luego, un gusto ayudarte",
         "Un gusto ayudarte, buen día",
@@ -30,50 +31,174 @@
     },
     {
       "tag": "gracias",
-      "patterns": ["Gracias", "Gracias a ti", "Eso es útil", "Muchas gracias"],
-      "responses": ["No hay de qué! ¡Siempre a tu servicio!", "¡De nada!, ¡Estoy aquí para ayudarte!", "¡Fue un placer ayudarte!"]
+      "patterns": [
+        "Gracias", 
+        "Gracias a ti", 
+        "Eso es útil", 
+        "Muchas gracias", 
+        "Te agradezco", 
+        "Muy amable"
+      ],
+      "responses": [
+        "¡No hay de qué! ¡Siempre a tu servicio!", 
+        "¡De nada! ¡Estoy aquí para ayudarte!", 
+        "¡Fue un placer ayudarte!"
+      ]
     },
     {
       "tag": "contacto",
       "patterns": [
         "¿Cuáles son los puntos de contacto?",
-        "¿Qué puntos de contacto hay?"
+        "¿Qué puntos de contacto hay?",
+        "¿Cómo puedo contactarlos?",
+        "Teléfonos de contacto",
+        "Número de contacto"
       ],
       "responses": [
-        "Contamos con Centro de ayuda para tu autogestión o las líneas de atención Konecta: En bogotá (601) 390-7461 o En medellín (604) 604-4924"
+        "Contamos con un Centro de ayuda para tu autogestión o puedes comunicarte a las líneas de atención Konecta: En Bogotá (601) 390-7461 o en Medellín (604) 604-4924"
       ]
     },
     {
       "tag": "ingreso",
       "patterns": [
         "¿Cómo puedo ingresar a sala de venta?", 
-        "¿Cuál es el link de sala de ventas?"
+        "¿Cuál es el link de sala de ventas?",
+        "Ingresar a la sala de ventas",
+        "Acceso a la sala de ventas",
+        "Entrar a sala de ventas"
       ],
       "responses": [
-        "1. Ingrese al enlace https://saladeventas.apps.bancolombia.com/ \n2. Digita el usuario (correo electrónico) y la contraseña asignados. \nNota: Si es la primera vez que ingresa, al correo registrado se enviará una contraseña temporal"
+        "1. Ingresa al enlace https://saladeventas.apps.bancolombia.com/ \n2. Digita el usuario (correo electrónico) y la contraseña asignados. \nNota: Si es la primera vez que ingresas, al correo registrado se enviará una contraseña temporal"
       ]
     },
     {
       "tag": "centro_ayuda",
       "patterns": [
         "¿Dónde encuentro el centro de ayuda?", 
-        "¿Dónde esta el centro de ayuda?", 
-        "¿Cuál es el centro de ayuda?"
+        "¿Dónde está el centro de ayuda?", 
+        "¿Cuál es el centro de ayuda?",
+        "Centro de ayuda",
+        "Ayuda",
+        "Soporte"
       ],
       "responses": [
-        "Accede al Centro de Ayuda a través del botón Ayuda, ubicado en la parte superior de tu pantalla. \nEn este centro cuentas con preguntas frecuentes y demás información que te permitirá aclarar o ampliar tus conocimientos sobre las funcionalidades disponibles en el Link Sala de Ventas"
+        "Accede al Centro de Ayuda a través del botón 'Ayuda', ubicado en la parte superior de tu pantalla. \nEn este centro cuentas con preguntas frecuentes y demás información que te permitirá aclarar o ampliar tus conocimientos sobre las funcionalidades disponibles en el Link Sala de Ventas"
       ]
     },
     {
       "tag": "clave_temporal",
       "patterns": [
+        "clave", 
         "¿Cómo puedo cambiar la clave temporal?", 
         "¿Cómo puedo cambiar la contraseña temporal?",
         "¿Qué es la contraseña temporal?",
-        "¿Cómo gestiono la contraseña temporal?"
+        "¿Cómo gestiono la contraseña temporal?",
+        "Olvidé mi clave temporal"
       ],
       "responses": [
         "Al ser la primera vez que ingresas a la herramienta, se te asignó una contraseña temporal enviada al correo registrado, la cual encontrarás en la comunicación de bienvenida a la herramienta. Una vez ingreses esta clave temporal, se solicitará automáticamente un cambio de contraseña. \n\nCondiciones necesarias para que la contraseña nueva sea habilitada: \n\n✓ mínimo diez (10) caracteres. \n✓ Una letra minúscula \n✓ Una letra mayúscula \n✓ Un dígito o un carácter especial (*/|#)."
+      ]
+    },
+    {
+      "tag": "recuperacion_clave",
+      "patterns": [
+        "¿Cómo puedo recuperar mi contraseña?",
+        "Olvidé mi contraseña",
+        "¿Cómo recuperar la contraseña?",
+        "Recuperar clave",
+        "Recuperación de contraseña"
+      ],
+      "responses": [
+        "Para recuperar tu contraseña, sigue estos pasos: \n1. Ingresa el correo electrónico registrado. \n2. Da clic en el botón '¿Olvidaste la contraseña?' y espera el código que será enviado al mismo correo. \n3. Ingresa el código recibido y crea una nueva contraseña. \nRecuerda que la nueva contraseña debe cumplir con las condiciones mínimas descritas anteriormente."
+      ]
+    },
+    {
+      "tag": "consultar_datos_cliente",
+      "patterns": [
+        "¿Cómo puedo consultar los datos del cliente?",
+        "Consulta de datos del cliente",
+        "Ver datos del cliente",
+        "Datos del cliente"
+      ],
+      "responses": [
+        "Para consultar los datos del cliente, sigue estos pasos: \n1. Elige el tipo de documento de identidad del cliente. \n2. Digita el número del documento de identidad. \n3. Selecciona el proyecto para el cual se está consultando al cliente. \n4. Ingresa el código o nombre de la actividad económica del cliente. \nEn caso de tener varios adquirentes en el inmueble, se debe realizar la consulta para cada uno de ellos."
+      ]
+    },
+    {
+      "tag": "vinculacion_cliente",
+      "patterns": [
+        "¿Cómo vincular a un cliente?",
+        "Vinculación de cliente",
+        "¿Cómo puedo vincular a un cliente?",
+        "Vincular cliente"
+      ],
+      "responses": [
+        "Para vincular a un cliente, ingresa al módulo 'Gestionar Solicitudes' y sigue estos pasos: \n1. Selecciona la opción 'crear solicitud de vinculación'. \n2. Diligencia toda la información del cliente (tipo de documento, número de documento, nombres y apellidos). \n3. Adjunta los documentos necesarios para la vinculación. \nRecuerda que los documentos deben estar en formato PDF y no deben exceder los 20MB."
+      ]
+    },
+    {
+      "tag": "novedades",
+      "patterns": [
+        "¿Cómo gestionar una novedad?",
+        "Gestión de novedades",
+        "¿Cómo puedo gestionar una novedad?",
+        "Novedades",
+        "Registrar novedad"
+      ],
+      "responses": [
+        "Para gestionar una novedad, ingresa al módulo 'Gestión de novedades' y sigue estos pasos: \n1. Selecciona el tipo de novedad (desistimientos, otrosíes, cesión de derechos, formalización de vinculación, etc.). \n2. Diligencia la información requerida. \n3. Adjunta los documentos necesarios para el trámite. \nRecuerda que los documentos deben estar en formato PDF y no deben exceder los 20MB."
+      ]
+    },
+    {
+      "tag": "gestionar_solicitudes",
+      "patterns": [
+        "¿Cómo gestionar solicitudes?",
+        "Gestión de solicitudes",
+        "¿Cómo puedo gestionar una solicitud?",
+        "Solicitudes",
+        "Registrar solicitud"
+      ],
+      "responses": [
+        "Para gestionar una solicitud, ingresa al módulo 'Gestionar Solicitudes' y sigue estos pasos: \n1. Selecciona la opción 'crear solicitud'. \n2. Diligencia toda la información requerida (tipo de documento, número de documento, nombres y apellidos). \n3. Adjunta los documentos necesarios para la solicitud. \nRecuerda que los documentos deben estar en formato PDF y no deben exceder los 20MB."
+      ]
+    },
+    {
+      "tag": "formato_pdf",
+      "patterns": [
+        "¿Cómo adjuntar documentos en formato PDF?",
+        "Adjuntar documentos en PDF",
+        "¿Cómo puedo adjuntar un PDF?",
+        "Subir documentos en PDF",
+        "Añadir archivos en PDF"
+      ],
+      "responses": [
+        "Para adjuntar documentos en formato PDF, asegúrate de que los archivos no excedan los 20MB y no tengan puntos (.) en el nombre del archivo. \n1. Selecciona la opción de adjuntar documento. \n2. Busca el archivo en tu dispositivo. \n3. Adjunta el archivo en el módulo correspondiente."
+      ]
+    },
+    {
+      "tag": "actualizacion_datos",
+      "patterns": [
+        "¿Cómo puedo actualizar mis datos?",
+        "Actualización de datos",
+        "Actualizar mis datos",
+        "Cambio de datos",
+        "Modificar información personal"
+      ],
+      "responses": [
+        "Para actualizar tus datos, sigue estos pasos: \n1. Ingresa a la Sucursal Virtual Personas a través de www.bancolombia.com/personas. \n2. Selecciona 'Actualizar mis datos'. \n3. Asegúrate de diligenciar las tres pestañas: Datos personales, Datos de residencia y Datos financieros. \n4. Recibe la confirmación de actualización exitosa."
+      ]
+    },
+    {
+      "tag": "creacion_solicitud_vinculacion",
+      "patterns": [
+        "¿Cómo crear una solicitud de vinculación?",
+        "Crear solicitud de vinculación",
+        "¿Cómo puedo crear una solicitud de vinculación?",
+        "Registrar solicitud de vinculación",
+        "Solicitud de vinculación"
+      ],
+      "responses": [
+        "Para crear una solicitud de vinculación, sigue estos pasos: \n1. Ingresa al módulo 'Gestionar Solicitudes'. \n2. Selecciona la opción 'crear solicitud de vinculación'. \n3. Diligencia toda la información requerida (tipo de documento, número de documento, nombres y apellidos). \n4. Adjunta los documentos necesarios para la vinculación."
       ]
     }
   ]

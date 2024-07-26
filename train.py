@@ -54,11 +54,11 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Hyper-parameters 
-num_epochs = 2000  # Aumentar el número de épocas
-batch_size = 8
-learning_rate = 0.001
+num_epochs = 10000  # Aumentar el número de épocas a 5000
+batch_size = 64  # Aumentar el tamaño del lote a 32
+learning_rate = 0.001  # Mantener la tasa de aprendizaje en 0.001
 input_size = len(X_train[0])
-hidden_size = 16  # Aumentar el tamaño de la capa oculta
+hidden_size = 120  # Aumentar el tamaño de la capa oculta a 64
 output_size = len(tags)
 print(input_size, output_size)
 
@@ -69,11 +69,9 @@ class ChatDataset(Dataset):
         self.x_data = X_train
         self.y_data = y_train
 
-    # support indexing such that dataset[i] can be used to get i-th sample
     def __getitem__(self, index):
         return self.x_data[index], self.y_data[index]
 
-    # we can call len(dataset) to return the size
     def __len__(self):
         return self.n_samples
 
