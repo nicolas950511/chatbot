@@ -5,61 +5,159 @@
       "patterns": [
         "Hola",
         "Hey",
-        "Como estas",
-        "Que tal?",
+        "Cómo estás",
+        "Qué tal?",
         "Alo",
-        "Buen dia",
-        "Buenos dias",
+        "Buen día",
+        "Buenos días",
         "Buenas tardes",
-        "Buenas noches"
+        "Buenas noches",
+        "Hola, ¿cómo estás?",
+        "Saludos",
+        "Hola, ¿qué tal?",
+        "Hola, ¿cómo te va?",
+        "Hola, ¿todo bien?",
+        "Hola, ¿cómo te sientes?",
+        "Hola, ¿qué hay de nuevo?",
+        "Hola, un placer hablar contigo"
       ],
       "responses": [
         "Hola 👋",
         "Hola 👋, ¿Cómo te puedo ayudar?",
-        "Hola 👋, ¿En que puedo ayudarte?"
+        "Hola 👋, ¿En qué puedo ayudarte?",
+        "¡Hola! ¿Cómo te encuentras hoy?",
+        "¡Hola! Espero que tengas un buen día.",
+        "¡Hola! ¿Cómo puedo asistirte hoy?",
+        "Hola, ¿en qué puedo serte útil?",
+        "Hola, es un placer saludarte.",
+        "¡Hola! ¿Qué te trae por aquí hoy?"
       ]
     },
     {
       "tag": "saludo_2",
-      "patterns": ["¿Cómo estás?", "¿Qué tal?", "¿Cómo te va?"],
+      "patterns": [
+        "¿Cómo estás?",
+        "¿Qué tal?",
+        "¿Cómo te va?",
+        "¿Cómo te sientes?",
+        "¿Todo bien?",
+        "¿Cómo andas?",
+        "¿Cómo te encuentras?",
+        "¿Cómo ha sido tu día?",
+        "¿Cómo estás hoy?",
+        "¿Qué tal tu día?",
+        "¿Cómo te ha ido?"
+      ],
       "responses": [
         "Muy bien 😀, gracias por preguntar. ¿Cómo te puedo ayudar?",
         "Excelente! 🌟 ¿En qué puedo ayudarte?",
-        "Bien 😀, gracias. ¿Cómo te puedo ayudar?"
+        "Bien 😀, gracias. ¿Cómo te puedo ayudar?",
+        "Estoy genial, gracias por preguntar. ¿Cómo puedo asistirte?",
+        "¡Todo en orden! 😊 ¿En qué te puedo ayudar hoy?",
+        "Estoy bien, gracias. ¿Cómo te puedo ayudar?",
+        "¡Me siento estupendo! 💪 ¿Qué necesitas?",
+        "¡Fantástico! 🎉 ¿En qué puedo ayudarte hoy?",
+        "¡Todo bien por aquí! ¿Qué puedo hacer por ti?"
       ]
     },
     {
       "tag": "despedida",
-      "patterns": ["Chao", "Adios", "Hasta luego"],
+      "patterns": [
+        "Chao",
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Cuídate",
+        "Hasta pronto",
+        "Hasta la próxima",
+        "Que tengas un buen día",
+        "Me despido",
+        "Nos vemos luego",
+        "Nos vemos pronto"
+      ],
       "responses": [
         "Hasta luego, un gusto ayudarte 😀",
         "Un gusto ayudarte, buen día 🌞",
-        "¡Adiós!, un gusto ayudarte 😀"
+        "¡Adiós!, un gusto ayudarte 😀",
+        "¡Nos vemos pronto! Cuídate 😊",
+        "Hasta la próxima, que tengas un excelente día!",
+        "¡Chao! Fue un placer ayudarte.",
+        "¡Adiós! Que todo te vaya bien.",
+        "¡Hasta luego! Aquí estaré si me necesitas.",
+        "Cuídate mucho, ¡hasta la próxima!",
+        "¡Nos vemos! Espero que tengas un gran día.",
+        "¡Hasta pronto! Siempre estaré aquí para ayudarte."
       ]
     },
     {
       "tag": "gracias",
-      "patterns": ["Gracias", "Gracias a ti", "Eso es útil", "Muchas gracias"],
-      "responses": ["No hay de qué! ¡Siempre a tu servicio! 😊", "¡De nada!, ¡Estoy aquí para ayudarte! 😊", "¡Fue un placer ayudarte! 😊"]
+      "patterns": [
+        "Gracias",
+        "Gracias a ti",
+        "Eso es útil",
+        "Muchas gracias",
+        "Te lo agradezco",
+        "Mil gracias",
+        "Gracias por la ayuda",
+        "Agradezco tu ayuda",
+        "Gracias por todo",
+        "Eres de gran ayuda",
+        "Gracias por tu asistencia"
+      ],
+      "responses": [
+        "¡No hay de qué! ¡Siempre a tu servicio! 😊",
+        "¡De nada!, ¡Estoy aquí para ayudarte! 😊",
+        "¡Fue un placer ayudarte! 😊",
+        "¡Con gusto! Estoy aquí cuando me necesites.",
+        "¡Siempre encantado de ayudar! 😊",
+        "No es nada, ¡me alegra haberte sido útil! 😊",
+        "¡De nada! ¡Aquí estaré para lo que necesites!",
+        "¡Me alegra haber podido ayudarte! 😊",
+        "¡Es un placer poder ayudarte! 😄",
+        "¡Gracias a ti por confiar en mí! 😊"
+      ]
     },
     {
       "tag": "contacto",
       "patterns": [
         "¿Cuáles son los puntos de contacto?",
-        "¿Qué puntos de contacto hay?"
+        "¿Qué puntos de contacto hay?",
+        "¿Cómo puedo contactarlos?",
+        "¿Me puedes dar los puntos de contacto?",
+        "¿Dónde puedo comunicarme?",
+        "¿Cómo puedo obtener ayuda?",
+        "¿Tienen un número de contacto?",
+        "¿Cómo puedo hablar con alguien?",
+        "¿Dónde puedo llamar?",
+        "Necesito un número de contacto"
       ],
       "responses": [
-        "Contamos con Centro de ayuda para tu autogestión o las líneas de atención Konecta: En bogotá (601) 390-7461 o En medellín (604) 604-4924"
+        "Contamos con Centro de ayuda para tu autogestión o las líneas de atención Konecta: En Bogotá (601) 390-7461 o en Medellín (604) 604-4924.",
+        "Puedes contactarnos a través del Centro de ayuda o llamando a nuestras líneas de atención en Bogotá: (601) 390-7461 o en Medellín: (604) 604-4924.",
+        "Para asistencia, puedes utilizar nuestro Centro de ayuda o comunicarte con nuestras líneas de atención en Bogotá: (601) 390-7461 o en Medellín: (604) 604-4924.",
+        "Nuestros puntos de contacto son el Centro de ayuda para autogestión o las líneas de atención Konecta: Bogotá (601) 390-7461, Medellín (604) 604-4924.",
+        "Puedes obtener ayuda en el Centro de ayuda o llamando a las líneas de atención: Bogotá (601) 390-7461, Medellín (604) 604-4924."
       ]
     },
     {
       "tag": "ingreso",
       "patterns": [
         "¿Cómo puedo ingresar a sala de venta?", 
-        "¿Cuál es el link de sala de ventas?"
+        "¿Cuál es el link de sala de ventas?",
+        "¿Dónde ingreso a la sala de ventas?",
+        "¿Cómo accedo a la sala de ventas?",
+        "¿Qué enlace uso para la sala de ventas?",
+        "¿Dónde puedo encontrar la sala de ventas?",
+        "¿Cuál es la URL de la sala de ventas?",
+        "Necesito el link para sala de ventas",
+        "¿Cómo entro a la sala de ventas?"
       ],
       "responses": [
-        "1. Ingrese al enlace https://saladeventas.apps.bancolombia.com/ \n2. Digita el usuario (correo electrónico) y la contraseña asignados. \nNota: Si es la primera vez que ingresa, al correo registrado se enviará una contraseña temporal"
+        "1. Ingrese al enlace https://saladeventas.apps.bancolombia.com/ \n2. Digita el usuario (correo electrónico) y la contraseña asignados. \nNota: Si es la primera vez que ingresa, al correo registrado se enviará una contraseña temporal.",
+        "Puedes ingresar a la sala de ventas a través de https://saladeventas.apps.bancolombia.com/. \nUsa tu correo electrónico y contraseña. \nSi es tu primera vez, recibirás una contraseña temporal en tu correo.",
+        "Para acceder a la sala de ventas, visita https://saladeventas.apps.bancolombia.com/ e ingresa con tu usuario y contraseña. \nSi es tu primera vez, se enviará una contraseña temporal a tu correo registrado.",
+        "El enlace para la sala de ventas es https://saladeventas.apps.bancolombia.com/. \nIngresa con tu correo electrónico y contraseña. \nSi es tu primer acceso, recibirás una contraseña temporal por correo.",
+        "Puedes entrar a la sala de ventas en https://saladeventas.apps.bancolombia.com/. \nIngresa tus credenciales y, si es tu primer acceso, recibirás una contraseña temporal en tu correo."
       ]
     },
     {
@@ -133,7 +231,119 @@
         "¿Consultar un cliente?"
       ],
       "responses": [
-        "Para comenzar el proceso debes: \n\n✓ Elegir el tipo de documento de identidad del cliente. \n\n✓ Digitar el número del documento de identidad. \n\n✓ Seleccionar el proyecto para el cual se está consultando al cliente. \n\n✓ Ingresar el código o nombre de laactividad económica del cliente."
+        "Para comenzar el proceso debes: \n\n✓ Elegir el tipo de documento de identidad del cliente. \n\n✓ Digitar el número del documento de identidad. \n\n✓ Seleccionar el proyecto para el cual se está consultando al cliente. \n\n✓ Ingresar el código o nombre de la actividad económica del cliente."
+      ]
+    },
+    {
+      "tag": "consultar_clientes",
+      "patterns": [
+        "¿Qué puedo hacer en consultar clientes?"
+      ],
+      "responses": [
+        "En el módulo “consultar clientes” se podrá validar el estado del comprador. Las posibles respuestas son: \n\n✓ Cliente listo para continuar \n\n✓ Cliente debe actualizar sus datos \n\n✓ Cliente deber ser vinculado \n\n✓ Cliente necesita una mayor gestión \n\n✓ No es posible vincular al cliente"
+      ]
+    },
+    {
+      "tag": "cliente_listo_para_continuar",
+      "patterns": [
+        "¿Qué tengo que hacer en la pantalla Estás listo para continuar con la vinculación al proyecto?"
+      ],
+      "responses": [
+        "✓ verifica que el nombre o razón social, y documento que aparecen en pantalla si pertenezcan al cliente consultado, de lo contrario dar clic en finalizar y volver a consultar. \n\n✓ La respuesta indica que el cliente no debe diligenciar documentos de vinculación/actualización al banco. Es decir, puede iniciar el proceso de vinculación a su nueva unidad inmobiliaria \n\n✓ El cliente deberá firmar, según sea el caso, los documentos de producto requeridos por el proyecto (ejemplo: promesa de compraventa, contrato de cesión de derechos de beneficio, contrato de adhesión, opción de compra, orden de separación, etc.)"
+      ]
+    },
+    {
+      "tag": "actualizar_datos_persona_natural",
+      "patterns": [
+        "¿Qué puedo hacer en la pantalla el cliente debe actualizar sus datos en sucursal virtual personas?",
+        "¿Qué puedo hacer en la pantalla el cliente debe actualizar sus datos en sucursal personas?"
+      ],
+      "responses": [
+        "✓ Verifica que el nombre, y documento que aparece en pantalla coincidan con el documento de identificación del cliente, de lo contrario da clic en finalizar y vuelva a consultar. \n\nSi el cliente decide actualizar sus datos a través de la Sucursal Virtual Personas, asegúrate de que realice el proceso antes de entregar la referencia de recaudo. \n\n Una vez realizado el proceso, consulta nuevamente al cliente en el módulo de consulta. \n\n✓ También es posible realizar la actualización de datos a través de formato de conocimiento del cliente y gestione su diligenciamiento."
+      ]
+    },
+    {
+      "tag": "actualizar_datos_sucursal_personas",
+      "patterns": [
+        "¿Cómo puede actualizar datos en sucursal virtual personas?"
+      ],
+      "responses": [
+        "Ingresa a www.bancolombia.com/personas, accede a tu Sucursal Virtual Personas y seleccionar “Actualizar mis datos”. \n\n✓ Asegúrate de diligenciar las tres pestañas: Datos personales, Datos de residencia y Datos financieros \n\nUna vez completada la información, asegúrate de recibir la confirmación de actualización exitosa."
+      ]
+    },
+    {
+      "tag": "actualizar_datos_persona_juridica",
+      "patterns": [
+        "¿Qué puedo hacer en la pantalla el cliente debe actualizar sus datos?",
+        "¿Qué puedo hacer en la pantalla el cliente debe actualizar sus datos para una persona juridica?"
+      ],
+      "responses": [
+        "✓ verifica que la razón social y el documento que aparecen en pantalla pertenezcan al cliente consultado, de lo contrario de clic en finalizar y vuelva a consultar. \n\n✓ El cliente puede actualizar sus datos a través del formato de Conocimiento de Persona Jurídica (el cual se debe descargar directamente desde el Link Sala de Ventas), o también a través de una sucursal física Bancolombia. \n\n✓ Debe pedirle la certificación de cámara de comercio con vigencia de los últimos 3 meses. \n\n✓ Debe indagar si ha cambiado de actividad económica, de ser así solicitarle el RUT. \n\n✓ Indague si ha cambiado de representante legal en el último año, de ser así solicítele copia del documento de identidad de dicho representante. "
+      ]
+    },
+    {
+      "tag": "mas_informacion_del_cliente_persona_natural",
+      "patterns": [
+        "¿Qué puedo hacer en la pantalla para continuar con el proceso, necesitamos más información del cliente para persona natural?"
+      ],
+      "responses": [
+        "✓ verifica que el nombre y número de documento que aparecen en pantalla si pertenezcan al cliente consultado, de lo contrario de clic en finalizar y vuelva a consultar. \n\n✓ Imprima el formato de conocimiento del cliente y gestione su diligenciamiento. \n\n✓ Solicite al cliente que reúna toda la documentación que aparece en pantalla. \n\n✓ Indíquele al cliente que es posible que se contacten con él para pedirle documentación adicional para continuar con el proceso."
+      ]
+    },
+    {
+      "tag": "mas_informacion_del_cliente_persona_juridica",
+      "patterns": [
+        "¿Qué puedo hacer en la pantalla para continuar con el proceso, necesitamos más información del cliente para persona juridica?"
+      ],
+      "responses": [
+        "✓ verifica que la razón social y documento que aparecen en pantalla si pertenezcan al cliente consultado, de lo contrario de clic en finalizar y vuelva a consultar. \n\n✓ Imprima el formato de conocimiento del cliente persona Jurídica y gestione su diligenciamiento. \n\n✓ Solicite al cliente que reúna toda la documentación que aparece en pantalla. \n\n✓ Indíquele al cliente que es posible que se contacten con él para pedirle documentación adicional para continuar con el proceso"
+      ]
+    },
+    {
+      "tag": "cliente_que_requiere_mayor_gestion",
+      "patterns": [
+        "¿Por qué me aparece el modal de mayor gestión para un cliente?",
+        "¿Qué puedo hacer para la pantalla de mayor gestión?"
+      ],
+      "responses": [
+        "✓ En el caso de negocio CON inventario en el Link Sala de Ventas, para clientes que requieren una mayor gestión se limitará la entrega de PDF con la referencia al cliente. Esto quiere decir que solo cuando la fiduciaria confirme que es posible realizar su vinculación/actualización, podrás descargar la referencia. \n\n✓ En el caso de negocio SIN inventario en el Link Sala de Ventas, el código de barras debe entregarse al cliente después de que la fiduciaria confirme la vinculación/actualización del cliente."
+      ]
+    },
+    {
+      "tag": "cliente_debe_vincularse_persona_natural",
+      "patterns": [
+        "¿Qué debo hacer en la pantalla el cliente debe vincularse para una persona natural?"
+      ],
+      "responses": [
+        "Si tu cliente es persona natural, mayor de edad, residente en Colombia y con cédula de ciudadanía, utiliza la opción de vinculación digital. Haciendo clic aquí podrás encontrar el instructivo para guiar al comprador y que los tramites sean mucho más ágiles. \n\nLuego de que tu cliente realice la vinculación digital, consúltalo nuevamente, para que el sistema tome la novedad. \n\nSi tu cliente es persona natural con tipo de identificación diferente a Cédula de ciudadanía o reside en el exterior, solicita la documentación que aparece en pantalla. Una vez esté completa, esta deberá adjuntarse para el proceso de vinculación. \n\nImprime los formatos pertinentes gestiona su diligenciamiento. \n\nTIP: Ten en cuenta que los siguientes campos son obligatorios: \n\nInformación general (tipo de documento, número de documento, nombres). \n\nInformación financiera (Ingresos y egresos diligenciada o en cero) \n\nFecha y firma del cliente. \n\nActividad económica: para el código CIIU consulta la guía inmobiliaria, Si deseas ampliar la información haz clic aquí."
+      ]
+    },
+    {
+      "tag": "cliente_debe_vincularse_persona_juridica",
+      "patterns": [
+        "¿Qué debo hacer en la pantalla el cliente debe vincularse para una persona juridica?"
+      ],
+      "responses": [
+        "✓ Verifica que la razón social y documento que aparecen en pantalla pertenezca al cliente, de lo contrario de clic en finalizar y vuelva a consultar. \n\n✓ Solicita la documentación que aparece en pantalla, y verifica que dicha documentación esté completa.  \n\n✓Imprime el formato de conocimiento del cliente Persona Jurídica y gestione su diligenciamiento. \n\n✓ Imprime el formato de conocimiento de socios y accionistas y gestiona su diligenciamiento."
+      ]
+    },
+    {
+      "tag": "no_es_posible_continuar_con_el_proceso",
+      "patterns": [
+        "¿Qué debo hacer en la pantalla no es posible continuar con el proceso?"
+      ],
+      "responses": [
+        "✓ Verifica que el nombre o razón social, y documento que aparecen en pantalla pertenezcan al cliente que se está consultando, de lo contrario da clic en finalizar y vuelve a consultar. \n\n✓ En caso de que siga generando la misma respuesta, deberás seguir las indicaciones de la pantalla pues no es posible continuar con el proceso de vinculación  \n\n✓ El cliente o comprador deberá dirigirse a una Sucursal Bancolombia e informar sus datos e indicar al asesor el mensaje que salió en la respuesta de la consulta. \n\n✓ Una vez el comprador haya realizado la diligencia y el asesor le indique que ya puede continuar con el proceso, deberás volverlo a consular y continuar con su gestión."
+      ]
+    },
+    {
+      "tag": "no_es_posible_vincular_al_comprador",
+      "patterns": [
+        "¿Qué debo hacer en la pantalla no es posible vincular el comprador?",
+        "¿Qué debo hacer en la pantalla no es posible vincular el comprador por políticas internas del grupo Bancolombia?"
+      ],
+      "responses": [
+        "✓ Este comprador definitivamente no puede ser vinculado a un proyecto con Fiduciaria Bancolombia. \n\n✓ Verifica que el nombre o razón social, y documento que aparecen en pantalla pertenezcan al cliente que se está consultando, de lo contrario da clic en finalizar y vuelve a consultar \n\n✓ Debe indicar al cliente que no es posible continuar con el proceso. \n\n✓ Si el cliente desea más información sobre por qué no se puede continuar con el proceso, direcciónalo a una sucursal física de Bancolombia para que se le amplíe la información sobre la razón de la respuesta por parte del Link Sala de Ventas."
       ]
     }
   ]
