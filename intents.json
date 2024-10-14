@@ -345,6 +345,540 @@
       "responses": [
         "✓ Este comprador definitivamente no puede ser vinculado a un proyecto con Fiduciaria Bancolombia. \n\n✓ Verifica que el nombre o razón social, y documento que aparecen en pantalla pertenezcan al cliente que se está consultando, de lo contrario da clic en finalizar y vuelve a consultar \n\n✓ Debe indicar al cliente que no es posible continuar con el proceso. \n\n✓ Si el cliente desea más información sobre por qué no se puede continuar con el proceso, direcciónalo a una sucursal física de Bancolombia para que se le amplíe la información sobre la razón de la respuesta por parte del Link Sala de Ventas."
       ]
+    },
+    {
+      "tag": "modulo_gestionar_solicitudes",
+      "patterns": [
+        "¿Qué es el módulo de gestionar solicitudes?",
+        "¿Cómo funciona el módulo de gestionar solicitudes?"
+      ],
+      "responses": [
+        "✓ Esta opción permite adjuntar documentos de las solicitudes de vinculación de un adquirente a una unidad inmobiliaria. \n\n✓ Recuerda que, para comenzar a gestionar solicitudes por este módulo, el cliente debe ser consultado previamente por a través del módulo “Consultar clientes"
+      ]
+    },
+    {
+      "tag": "bandeja_solicitudes_vinculacion",
+      "patterns": [
+        "¿Qué la bandeja de solicitudes de vinculación?",
+        "¿para qué funciona la bandeja de solicitudes de vinculación?"
+      ],
+      "responses": [
+        "La bandeja de vinculaciones muestra las consultas y solicitudes con sus respectivos estados. Para gestionar las solicitudes, debes seleccionar una de ellas y comenzar a realizar la gestión necesaria."
+      ]
+    },
+    {
+      "tag": "bandeja_solicitudes_vinculacion_funcion",
+      "patterns": [
+        "¿Qué puede hacer en la bandeja de solicitudes de vinculación?",
+        "¿Qué cosas puede gestio en la bandeja de solicitudes de vinculación?"
+      ],
+      "responses": [
+        "✓ Para aquellos usuarios que tienen asignados más de un proyecto, se debe seleccionar el negocio para el cual requiere gestionar la vinculación. \n\n✓ Se puede filtrar la bandeja por estado de la solicitud. \n\n✓ Se pueden hacer búsquedas por número de documento del cliente."
+      ]
+    },
+    {
+      "tag": "Estados_solicitud",
+      "patterns": [
+        "¿Cuáles son los estados de una solicitud?",
+        "¿Cuántos estados de solicitud hay?"
+      ],
+      "responses": [
+        "✓ Pendiente: El proceso no ha sido completado ni enviado. \n\n✓ En proceso: El cliente está siendo gestionado por parte de Fiduciaria Bancolombia. \n\n✓ Aprobado: El cliente ha sido vinculado con éxito. \n\n✓ En Estudio: El cliente se encuentra en mayor gestión. \n\n✓ Devuelto: La solicitud tiene observaciones a subsanar. \n\n✓ Rechazado: La solicitud tiene observaciones a subsanar."
+      ]
+    },
+    {
+      "tag": "Estados_pendiente",
+      "patterns": [
+        "¿Qué es el estado pendiente?",
+        "¿Cuál es el estado pendiente?"
+      ],
+      "responses": [
+        "El estado pendiente hace referencia a solicitudes guardadas o que no han sido enviadas para revisión. La solicitud permanecerá en la bandeja para su gestión durante 30 días a partir de la fecha de la consulta del cliente, posteriormente será eliminada. Una vez se seleccione la opción de enviar cambiara a estado “En proceso”."
+      ]
+    },
+    {
+      "tag": "Estados_aprobado",
+      "patterns": [
+        "¿Qué es el estado aprobado?",
+        "¿Cuál es el estado aprobado?"
+      ],
+      "responses": [
+        "El estado aprobado indica que la solicitud fue gestionada con éxito y el cliente ha sido vinculado a la unidad inmobiliaria. La solicitud permanecerá 30 días en la bandeja, posteriormente será eliminada."
+      ]
+    },
+    {
+      "tag": "Estados_en_proceso",
+      "patterns": [
+        "¿Qué es el estado en proceso?",
+        "¿Cuál es el estado en proceso?"
+      ],
+      "responses": [
+        "El estado en proceso significa que la solicitud está en gestión por parte del equipo de la Fiduciaria y tiene una promesa de servicio de 3 días hábiles."
+      ]
+    },
+    {
+      "tag": "Estados_en_estudio",
+      "patterns": [
+        "¿Qué es el estado en estudio?",
+        "¿Cuál es el estado en estudio?"
+      ],
+      "responses": [
+        "El estado en estudio La solicitud se encuentra en mayor gestión de conocimiento del cliente."
+      ]
+    },
+    {
+      "tag": "Estados_devuelo",
+      "patterns": [
+        "¿Qué es el estado devuelto?",
+        "¿Cuál es el estado devuelto?"
+      ],
+      "responses": [
+        "la solicitud tiene observaciones que deben ser gestionadas por la sala de ventas. Una vez completadas las subsanaciones, se debe enviar nuevamente para revisión. En caso de no gestionar las observaciones de la devolución, la unidad será liberada automáticamente en un plazo de 90 días"
+      ]
+    },
+    {
+      "tag": "Estados_rechazado",
+      "patterns": [
+        "¿Qué es el estado rechazado?",
+        "¿Cuál es el estado rechazado?"
+      ],
+      "responses": [
+        "por motivos internos el cliente no puede ser vinculado. También se puede presentar cuando una solicitud fue radicada de manera incorrecta y por tanto debe radicarse nuevamente. La solicitud permanecerá 30 días en la bandeja, posteriormente será eliminada."
+      ]
+    },
+    {
+      "tag": "creacion_solicitud_vinculacion",
+      "patterns": [
+        "¿Cómo puedo crear una solicitud de vinculación?",
+        "¿Cómo crear una solicitud de vinculación?"
+      ],
+      "responses": [
+        "✓ En la bandeja de vinculación del proyecto, de clic en el nombre del cliente para el cual se creará la solicitud de vinculación. \n\n✓ Para gestionar una solicitud se deben diligenciar tres secciones de información: (1) Información del proyecto, (2) Información del cliente y (3) documentos de vinculación."
+      ]
+    },
+    {
+      "tag": "proyecto_sin_inventario",
+      "patterns": [
+        "¿Cómo puedo gestionar un proyecto sin inventario?",
+        "¿Cómo lleno el formulario para un proyecto sin inventario?"
+      ],
+      "responses": [
+        "1. Seleccionar la unidad inmobiliaria, ejemplo: casa, apartamento, cuarto, entre otros \n\n2. Diligenciar la referencia de recaudo de la unidad inmobiliaria. \n\n3. Diligenciar el número o nomenclatura de la unidad inmobiliaria. \n\nTip: Todos los campos deberán ser diligenciados para que se habilite el botón de “enviar” la solicitud a revisión."
+      ]
+    },
+    {
+      "tag": "proyecto_con_inventario",
+      "patterns": [
+        "¿Cómo puedo gestionar un proyecto con inventario?",
+        "¿Cómo lleno el formulario para un proyecto con inventario?"
+      ],
+      "responses": [
+        "1. Seleccionar los campos de categoría, sub etapa (si aplica), unidad inmobiliaria y número de unidad inmobiliaria, según el inventario cargado \n\n2. Una vez diligenciados todos estos campos, se habilitará el botón para descargar PDF con referencia, lo cual generará el documento con la referencia para el pago de las cuotas del inmueble que se deberá entregar al comprador. \n\nTip: La referencia deberá ser descargada para que se habilite el botón para “enviar” la solicitud a revisión."
+      ]
+    },
+    {
+      "tag": "Anadir_unidades_adicionales_vinculacion",
+      "patterns": [
+        "¿Cómo añadir unidades adicionales a una vinculación?",
+        "¿Qué debo hacer para agregar más unidades a una vinculación?"
+      ],
+      "responses": [
+        "Para añadir unidades adicionales a una vinculación, sigue estos pasos:\n\n1. Selecciona la opción 'Añadir unidad inmobiliaria' para agregar las unidades que se van a vender de manera agrupada, como un apartamento con parqueadero o cuarto útil.\n2. Al seleccionar esta opción, se crearán pestañas para cada una de las unidades añadidas.\n3. Si añades una unidad inmobiliaria por error, selecciona la pestaña correspondiente y automáticamente se eliminará la unidad.\n\nTen en cuenta que solo puedes tener una unidad principal en una misma solicitud. Las unidades principales incluyen: apartamento, casa, local, entre otros. Las unidades secundarias incluyen: cuarto útil, parqueadero, depósito, zona común."
+      ]
+    },
+    {
+      "tag": "Liberacion_manual_unidades_comprometidas",
+      "patterns": [
+        "¿Cómo liberar manualmente unidades comprometidas?",
+        "¿Qué pasos debo seguir para liberar una unidad comprometida?"
+      ],
+      "responses": [
+        "Para realizar la liberación manual de unidades comprometidas, sigue estos pasos:\n\n1. Si la vinculación se encuentra en estado 'Pendiente' (es decir, la solicitud no ha sido enviada para revisión) y el comprador se retracta, selecciona la opción de liberación manual. El sistema solicitará confirmación, y una vez confirmada, el inmueble o las unidades generadas quedarán disponibles nuevamente para la venta a otro comprador.\n\n2. En caso de que la solicitud haya sido enviada y el comprador se retracte, deberás esperar a que se complete la gestión de la vinculación del comprador.\n\n- Si el resultado de la gestión es 'Rechazado', la unidad quedará disponible de nuevo.\n- Si la solicitud es 'Aprobada', deberás tramitar una novedad de desistimiento para habilitar la unidad nuevamente."
+      ]
+    },
+    {
+      "tag": "Informacion_cliente",
+      "patterns": [
+        "¿Qué información del cliente se debe ingresar?",
+        "¿Cómo ingresar la información del cliente en una solicitud de vinculación?"
+      ],
+      "responses": [
+        "Para ingresar la información del cliente en una solicitud de vinculación, sigue estos pasos:\n\n1. Verifica que los datos del cliente sean correctos, incluyendo tipo de documento, número de documento, actividad económica, nombres y apellidos.\n2. Si el nombre del cliente no aparece en la pantalla, ingrésalo manualmente.\n3. Haz clic en 'Añadir cliente' para agregar clientes adicionales a la vinculación. Solo se podrán añadir clientes que hayan sido previamente consultados para el proyecto.\n4. Para eliminar un cliente, haz clic en 'Eliminar cliente' y automáticamente se eliminará la pestaña del cliente correspondiente.\n5. Verifica que todos los campos de todos los clientes estén correctamente diligenciados para habilitar el envío de la solicitud."
+      ]
+    },
+    {
+      "tag": "Documentos_vinculacion",
+      "patterns": [
+        "¿Qué documentos se deben cargar para la vinculación?",
+        "¿Cómo cargar los documentos de vinculación?",
+        "¿Qué documentos son necesarios para la vinculación de un cliente?"
+      ],
+      "responses": [
+        "Los documentos necesarios para la vinculación se habilitan según el resultado de la consulta del cliente. Los documentos pueden incluir, entre otros:\n\n- Promesa de compraventa\n- Contrato de cesión de derechos de beneficio\n- Contrato de adhesión\n- Opción de compra\n- Orden de separación\n- Oferta de compra\n- Carta de instrucciones\n- Documento de adhesión\n\nAdemás, si el cliente actúa mediante apoderado, se debe cargar el documento firmado por la persona autorizada. Los documentos no deben exceder los 20 MB y deben estar en formato PDF sin puntos (.) en el nombre del archivo."
+      ]
+    },
+    {
+      "tag": "Observaciones_guardar_enviar",
+      "patterns": [
+        "¿Cómo agregar observaciones a una solicitud?",
+        "¿Cómo guardar y enviar una solicitud de vinculación?",
+        "¿Qué hacer antes de enviar una solicitud de vinculación?"
+      ],
+      "responses": [
+        "Para agregar observaciones y gestionar una solicitud de vinculación, sigue estos pasos:\n\n1. Si hay información adicional que debe tenerse en cuenta por parte de la Fiduciaria, utiliza el campo de 'Observaciones' para consignar esos detalles.\n2. Si la solicitud todavía no puede ser enviada por algún motivo, puedes guardarla. Las solicitudes se guardarán por 30 días, luego de los cuales serán eliminadas si no han sido gestionadas.\n3. La opción de 'Enviar' se habilitará una vez todos los campos estén diligenciados y se hayan cargado los documentos requeridos."
+      ]
+    },
+    {
+      "tag": "Historial_novedades",
+      "patterns": [
+        "¿Qué es el historial de novedades?",
+        "¿Cómo consultar el historial de novedades en una solicitud?",
+        "¿Cómo ver las observaciones de una solicitud en el historial de novedades?"
+      ],
+      "responses": [
+        "El historial de novedades permite consultar las observaciones realizadas desde la Fiduciaria a una solicitud en estado 'Devuelto'. También se puede consultar la fecha de devolución y la causa de la misma.\n\n1. La sala de ventas tiene 90 días para gestionar o subsanar las observaciones consignadas en este historial.\n2. Si las observaciones no se gestionan en ese plazo, la solicitud será eliminada de la bandeja, y las unidades inmobiliarias asociadas al trámite quedarán libres y disponibles nuevamente para su comercialización."
+      ]
+    },
+    {
+      "tag": "Gestion_novedades",
+      "patterns": [
+        "¿Cómo gestionar novedades en la herramienta?",
+        "¿Qué pasos seguir para la gestión de novedades?",
+        "¿Cómo adjuntar documentos para las novedades?"
+      ],
+      "responses": [
+        "Para gestionar las novedades en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Gestión de novedades' para gestionar y adjuntar los documentos necesarios para el trámite de las novedades posteriores a la vinculación de un cliente a su inmueble.\n\n2. Estas novedades pueden incluir:\n- Desistimientos\n- Otrosíes\n- Cesión de derechos\n- Formalización de vinculación\n\n3. Asegúrate de adjuntar los documentos solicitados para cada tipo de novedad antes de enviarla para su revisión."
+      ]
+    },
+    {
+      "tag": "Bandeja_gestion_novedades",
+      "patterns": [
+        "¿Qué es la bandeja de gestión de novedades?",
+        "¿Cómo utilizar la bandeja de gestión de novedades?",
+        "¿Cómo filtrar la bandeja de gestión de novedades?"
+      ],
+      "responses": [
+        "La bandeja de gestión de novedades te permite gestionar y revisar las solicitudes relacionadas con las novedades de un cliente. Sigue estos pasos para utilizarla:\n\n1. Puedes filtrar la bandeja por estado de la solicitud y tipo de novedad.\n2. Si tienes más de un proyecto asignado, debes seleccionar el negocio para el cual deseas gestionar la novedad.\n3. También puedes descargar los formatos vigentes para los desistimientos y otras novedades a través de esta bandeja, asegurándote de usar las versiones actualizadas de los documentos."
+      ]
+    },
+    {
+      "tag": "Crear_novedad",
+      "patterns": [
+        "¿Cómo crear una novedad?",
+        "¿Qué pasos seguir para crear una novedad en la herramienta?",
+        "¿Cómo registrar una novedad en la herramienta?"
+      ],
+      "responses": [
+        "Para crear una novedad en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Gestión de novedades' y selecciona la opción para crear una novedad.\n2. Despliega el listado con los tipos de novedad habilitados y selecciona el tipo de novedad que deseas crear.\n3. Completa la información requerida sobre el inmueble y los clientes asociados a la novedad.\n4. Adjunta los documentos necesarios para la novedad, asegurándote de que todos los campos estén diligenciados antes de enviar la solicitud."
+      ]
+    },
+    {
+      "tag": "Otrosi",
+      "patterns": [
+        "¿Cómo crear un Otrosí?",
+        "¿Qué es un Otrosí en la herramienta?",
+        "¿Qué información debo diligenciar para un Otrosí?"
+      ],
+      "responses": [
+        "Para crear un Otrosí en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo de 'Gestión de novedades' y selecciona el tipo de Otrosí que deseas radicar.\n2. Puedes seleccionar una o varias opciones de Otrosí, según lo que necesites.\n3. Diligencia la información del inmueble al cual se aplicará la novedad y revisa la referencia de recaudo.\n4. Consulta o diligencia los datos de los clientes. Si la consulta no muestra los compradores vinculados, puedes ingresar la información manualmente.\n5. Asegúrate de adjuntar todos los documentos requeridos antes de enviar la solicitud."
+      ]
+    },
+    {
+      "tag": "Cesion_de_derechos",
+      "patterns": [
+        "¿Cómo realizar una cesión de derechos?",
+        "¿Qué es la cesión de derechos en la herramienta?",
+        "¿Cómo gestionar una cesión de derechos en la herramienta?"
+      ],
+      "responses": [
+        "Para gestionar una cesión de derechos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Gestión de novedades' y selecciona 'Cesión de derechos' como el tipo de novedad.\n2. Si la cesión de derechos es para la 'Inclusión de un nuevo adquirente', selecciona la opción 'IR A CONSULTAR' para buscar el cliente o los clientes que se van a incluir.\n3. Diligencia la documentación requerida según la respuesta de la consulta del cliente.\n4. Si aplican apoderados, consulta y carga los documentos del apoderado.\n5. Si la consulta no muestra los compradores vinculados, puedes ingresar la información de los clientes de manera manual."
+      ]
+    },
+    {
+      "tag": "Desistimiento",
+      "patterns": [
+        "¿Cómo radicar un desistimiento?",
+        "¿Qué es un desistimiento en la herramienta?",
+        "¿Qué pasos seguir para registrar un desistimiento?"
+      ],
+      "responses": [
+        "Para radicar un desistimiento en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Gestión de novedades' y selecciona 'Desistimiento' como el tipo de novedad.\n2. Completa la información requerida del cliente o los clientes que van a realizar el desistimiento.\n3. Descarga los formatos estándar desde la bandeja de solicitudes, estos deben ser firmados por el comprador o compradores.\n4. Adjunta los documentos firmados y envía la solicitud para revisión y aprobación.\n5. Existen dos tipos de desistimiento: unilateral (cuando el proyecto decide realizar el desistimiento) y bilateral (cuando el proyecto y el comprador acuerdan el desistimiento)."
+      ]
+    },
+    {
+      "tag": "Desistimiento_sin_devolucion_recursos",
+      "patterns": [
+        "¿Cómo radicar un desistimiento sin devolución de recursos?",
+        "¿Qué es un desistimiento sin devolución de recursos?",
+        "¿Qué pasos seguir para registrar un desistimiento sin devolución de recursos?"
+      ],
+      "responses": [
+        "Para radicar un desistimiento sin devolución de recursos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Gestión de novedades' y selecciona 'Desistimiento sin devolución de recursos' como el tipo de novedad.\n2. Diligencia la información del cliente o compradores que van a realizar el desistimiento.\n3. Completa la información sobre el inmueble al cual se aplicará la novedad, y si no hay aportes del cliente, coloca 'cero' para continuar.\n4. Adjunta los documentos requeridos y guarda la solicitud en caso de que no pueda ser enviada de inmediato. Las solicitudes se guardarán por 30 días y serán eliminadas si no son gestionadas en ese tiempo."
+      ]
+    },
+    {
+      "tag": "Desistimiento_con_devolucion_recursos",
+      "patterns": [
+        "¿Cómo radicar un desistimiento con devolución de recursos?",
+        "¿Qué es un desistimiento con devolución de recursos?",
+        "¿Qué pasos seguir para registrar un desistimiento con devolución de recursos?"
+      ],
+      "responses": [
+        "Para radicar un desistimiento con devolución de recursos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Gestión de novedades' y selecciona 'Desistimiento con devolución de recursos' como el tipo de novedad.\n2. Completa la información financiera del proyecto (fideicomitente) desde el cual se reembolsarán los recursos del cliente.\n3. Selecciona el tipo de desembolso, según lo pactado con el cliente, y diligencia la información de la cuenta a la cual se realizará la devolución.\n4. Si la cuenta de destino es Bancolombia, no será necesario adjuntar la certificación bancaria. Si es de otro banco, la certificación es obligatoria.\n5. Adjunta los documentos requeridos para cada cuenta agregada y, una vez completados todos los campos, envía la solicitud para aprobación y revisión por parte del coordinador."
+      ]
+    },
+    {
+      "tag": "Aprobacion_envio_desistimiento_coordinador",
+      "patterns": [
+        "¿Cómo aprobar y enviar un desistimiento desde el rol de coordinador?",
+        "¿Qué pasos seguir para aprobar y enviar un desistimiento como coordinador?",
+        "¿Cómo gestionar un desistimiento desde el rol de coordinador?"
+      ],
+      "responses": [
+        "Para aprobar y enviar un desistimiento desde el rol de coordinador, sigue estos pasos:\n\n1. Cuando la solicitud de desistimiento se encuentra en estado 'Pendiente - Aprobar', ingresa a la solicitud desde el rol de coordinador.\n2. Revisa toda la información diligenciada y descarga los documentos adjuntos.\n3. Si encuentras algún error en la solicitud, coloca las observaciones en el campo correspondiente y selecciona la opción 'Devolver'. La solicitud será enviada de nuevo al rol asesor para subsanar las inconsistencias.\n4. Si la información es correcta, selecciona la opción 'Aprobar'. La solicitud cambiará de estado a 'En proceso' y será enviada al equipo de Fiduciaria Bancolombia para su gestión."
+      ]
+    },
+    {
+      "tag": "Formalizacion_vinculacion",
+      "patterns": [
+        "¿Cómo se realiza la formalización de vinculación?",
+        "¿Qué es la formalización de vinculación?",
+        "¿Qué pasos seguir para formalizar la vinculación?"
+      ],
+      "responses": [
+        "Para realizar la formalización de vinculación, sigue estos pasos:\n\n1. La formalización de la vinculación permite enviar el documento de promesa de compraventa o contrato de cesión de derechos de beneficios después de cumplir con los puntos de equilibrio del proyecto.\n2. Cambia el estado del adquiriente de 'optante' a 'comprador' mediante la herramienta.\n3. Consulta el inmueble y el listado de adquirientes asociados a la unidad seleccionada.\n4. Asegúrate de adjuntar todos los documentos necesarios y verifica que toda la información esté diligenciada antes de enviar la solicitud para su formalización."
+      ]
+    },
+    {
+      "tag": "Consulta_inmueble",
+      "patterns": [
+        "¿Cómo consultar el inmueble?",
+        "¿Cómo realizar una consulta del inmueble en la herramienta?",
+        "¿Qué pasos seguir para consultar un inmueble?"
+      ],
+      "responses": [
+        "Para realizar una consulta del inmueble en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo correspondiente y selecciona el proyecto, etapa, subetapa, tipo de unidad y número de la unidad que deseas consultar.\n2. La información del inmueble se mostrará junto con las unidades adicionales si las hay.\n3. Verifica todos los datos asociados al inmueble, incluyendo los adquirientes y cualquier otra información relevante relacionada con la formalización o gestión del mismo."
+      ]
+    },
+    {
+      "tag": "Informacion_clientes",
+      "patterns": [
+        "¿Cómo consultar la información de los clientes?",
+        "¿Cómo ingresar o modificar la información de los clientes?",
+        "¿Qué información de los clientes se debe verificar?"
+      ],
+      "responses": [
+        "Para gestionar la información de los clientes en la herramienta, sigue estos pasos:\n\n1. Consulta el estado del cliente en el sistema. Si el adquiriente ha cambiado su actividad económica, el campo estará habilitado para su modificación.\n2. Realiza una consulta por cada uno de los compradores asociados al inmueble.\n3. Asegúrate de verificar que toda la información esté actualizada y sea correcta antes de proceder con cualquier gestión adicional relacionada con la solicitud."
+      ]
+    },
+    {
+      "tag": "Pantallas_respuesta_consulta_cliente",
+      "patterns": [
+        "¿Cuáles son las pantallas de respuesta ante la consulta de cliente?",
+        "¿Qué respuestas se muestran en las pantallas al consultar un cliente?",
+        "¿Cómo interpretar las pantallas de respuesta al consultar un cliente?"
+      ],
+      "responses": [
+        "Las pantallas de respuesta ante la consulta de un cliente en la herramienta muestran los siguientes posibles resultados:\n\n1. El cliente está listo para continuar: El cliente no debe diligenciar documentos adicionales.\n2. El cliente debe actualizar sus datos: Se requiere que el cliente actualice su información antes de continuar.\n3. El cliente debe ser vinculado: El cliente necesita completar el proceso de vinculación.\n4. El cliente necesita mayor gestión: Se requiere más seguimiento o documentación antes de avanzar.\n5. No es posible continuar con el proceso: El cliente no puede ser vinculado o continuar con el proceso actual."
+      ]
+    },
+    {
+      "tag": "Documentos_formalizar_vinculacion",
+      "patterns": [
+        "¿Qué documentos se necesitan para formalizar la vinculación?",
+        "¿Cuáles son los documentos para la formalización de la vinculación?",
+        "¿Qué documentos debo cargar para formalizar la vinculación?"
+      ],
+      "responses": [
+        "Los documentos necesarios para formalizar la vinculación dependen del estado del cliente y del inmueble. Estos pueden incluir:\n\n1. Promesa de compraventa\n2. Contrato de cesión de derechos de beneficios\n3. Documentos de identificación del cliente\n\nAsegúrate de que todos los documentos estén debidamente firmados y cargados en formato PDF. Además, revisa los criterios de carga de documentos, como el tamaño máximo de 20MB y la ausencia de puntos (.) en el nombre del archivo."
+      ]
+    },
+    {
+      "tag": "Recaudos",
+      "patterns": [
+        "¿Cómo gestionar los recaudos?",
+        "¿Qué son los recaudos en la herramienta?",
+        "¿Qué pasos seguir para gestionar los recaudos?"
+      ],
+      "responses": [
+        "Para gestionar los recaudos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Recaudos' para enviar solicitudes relacionadas con la identificación, clasificación y ajuste de recaudos.\n2. Los recaudos pueden incluir:\n- Identificación de partidas\n- Reclasificación de aportes\n- Ajustes de descuentos, intereses de mora o prediales\n\n3. Asegúrate de seleccionar el tipo de novedad correcto al gestionar un recaudo, adjunta los documentos necesarios y envía la solicitud para su revisión."
+      ]
+    },
+    {
+      "tag": "Identificacion_recaudos",
+      "patterns": [
+        "¿Cómo identificar un recaudo?",
+        "¿Qué es la identificación de recaudos?",
+        "¿Cómo gestionar la identificación de recaudos en la herramienta?"
+      ],
+      "responses": [
+        "Para gestionar la identificación de recaudos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Recaudos' y selecciona la opción 'Identificación de recaudo'.\n2. Puedes identificar partidas que ingresaron sin referencia o con referencias erradas.\n3. También puedes identificar partidas relacionadas con obligaciones financieras o subrogaciones, como pagos que se hicieron directamente al crédito constructor.\n4. Asegúrate de adjuntar los documentos necesarios para identificar correctamente los recaudos antes de enviar la solicitud."
+      ]
+    },
+    {
+      "tag": "Recaudos_ajustes",
+      "patterns": [
+        "¿Cómo gestionar ajustes de recaudos?",
+        "¿Qué es un ajuste de recaudos?",
+        "¿Qué pasos seguir para ajustar un recaudo?"
+      ],
+      "responses": [
+        "Para gestionar los ajustes de recaudos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Recaudos' y selecciona 'Ajustes'.\n2. Los ajustes de recaudos pueden incluir:\n- Descuentos comerciales: Estos afectan los aportes del comprador cuando la unidad ya está vendida.\n- Intereses de mora: Se aplican por retrasos en el pago de cuotas, disminuyendo los aportes del comprador.\n- Ajustes prediales: Cobros relacionados con el pago de impuesto predial por parte de la constructora, afectando los aportes del cliente.\n3. Adjunta los documentos requeridos para cada tipo de ajuste y envía la solicitud para su revisión."
+      ]
+    },
+    {
+      "tag": "Recaudos_reclasificaciones",
+      "patterns": [
+        "¿Cómo gestionar reclasificaciones de recaudos?",
+        "¿Qué es una reclasificación de recaudos?",
+        "¿Qué pasos seguir para reclasificar un recaudo?"
+      ],
+      "responses": [
+        "Para gestionar las reclasificaciones de recaudos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Recaudos' y selecciona 'Reclasificaciones'.\n2. Las reclasificaciones pueden incluir:\n- Traslados de recursos: Para mover recursos entre cuentas del mismo negocio o cuentas de diferentes negocios.\n- Legalización de aportes: Se realiza cuando las consignaciones se hicieron en una cuenta equivocada y deben acreditarse al comprador correcto.\n- Reclasificación entre terceros: Se utiliza cuando un inmueble o tercero tiene aportes que no le corresponden y deben ser trasladados al correcto.\n3. Adjunta los documentos necesarios y envía la solicitud para su revisión y aprobación."
+      ]
+    },
+    {
+      "tag": "Envio_recaudos",
+      "patterns": [
+        "¿Cómo enviar recaudos?",
+        "¿Qué pasos seguir para enviar recaudos?",
+        "¿Cómo realizar el envío de recaudos en la herramienta?"
+      ],
+      "responses": [
+        "Para enviar recaudos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Recaudos' y selecciona el tipo de novedad 'Recaudos' que se ajuste a tu necesidad.\n2. Selecciona el proyecto al cual corresponde la novedad que deseas radicar.\n3. Adjunta obligatoriamente un archivo con el detalle de la solicitud. Puedes adjuntar hasta 4 archivos opcionales adicionales.\n4. Revisa que toda la información esté completa y luego haz clic en el botón 'Enviar' para enviar la solicitud a revisión."
+      ]
+    },
+    {
+      "tag": "Escrituracion",
+      "patterns": [
+        "¿Cómo gestionar la escrituración?",
+        "¿Qué es la escrituración en la herramienta?",
+        "¿Qué pasos seguir para realizar una escrituración?"
+      ],
+      "responses": [
+        "Para gestionar la escrituración en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Escrituración' y selecciona el tipo de novedad correspondiente a tu necesidad.\n2. Las novedades de escrituración pueden incluir:\n- Matrículas inmobiliarias (nuevos RPH o actualizaciones): Para recibir o actualizar el reglamento de propiedad horizontal.\n- Autorización de escrituras públicas: Para recibir la solicitud de autorización de escrituras.\n3. Descarga la plantilla necesaria, diligénciala con los detalles de la novedad y adjunta el archivo correspondiente.\n4. Selecciona el proyecto al cual corresponde la novedad y adjunta hasta 4 archivos opcionales adicionales antes de enviar la solicitud para su revisión."
+      ]
+    },
+    {
+      "tag": "Envio_escrituracion",
+      "patterns": [
+        "¿Cómo enviar una solicitud de escrituración?",
+        "¿Qué pasos seguir para enviar una escrituración?",
+        "¿Cómo gestionar el envío de una escrituración?"
+      ],
+      "responses": [
+        "Para enviar una solicitud de escrituración en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Escrituración' y selecciona el tipo de novedad que deseas gestionar.\n2. Selecciona el proyecto al cual corresponde la novedad de escrituración que vas a radicar.\n3. Descarga la plantilla requerida, diligénciala con los detalles de la novedad, y luego adjunta el archivo correspondiente en el sistema.\n4. Puedes adjuntar hasta 4 archivos opcionales adicionales antes de enviar la solicitud para su revisión.\n5. Haz clic en 'Enviar' para enviar la solicitud de escrituración a revisión por parte de la Fiduciaria."
+      ]
+    },
+    {
+      "tag": "Requerimientos",
+      "patterns": [
+        "¿Cómo gestionar los requerimientos?",
+        "¿Qué son los requerimientos en la herramienta?",
+        "¿Cómo enviar un requerimiento en la herramienta?"
+      ],
+      "responses": [
+        "Para gestionar los requerimientos en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Requerimientos' y selecciona el tipo de requerimiento que deseas enviar.\n2. Los requerimientos pueden incluir:\n- Conciliación de aportes: Para solicitar conciliaciones de aportes relacionados con diferencias entre los movimientos reportados por la fiduciaria y la constructora.\n- Solicitud de informes: Para solicitar informes detallados de movimientos relacionados con un proyecto.\n3. Selecciona el proyecto al cual corresponde el requerimiento.\n4. Adjunta los documentos necesarios y, si lo deseas, hasta 4 archivos opcionales adicionales.\n5. Haz clic en 'Enviar' para radicar el requerimiento."
+      ]
+    },
+    {
+      "tag": "Envio_requerimientos",
+      "patterns": [
+        "¿Cómo enviar un requerimiento?",
+        "¿Qué pasos seguir para enviar un requerimiento en la herramienta?",
+        "¿Cómo gestionar el envío de requerimientos?"
+      ],
+      "responses": [
+        "Para enviar un requerimiento en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Requerimientos' y selecciona el tipo de novedad 'Requerimientos' que se ajuste a tu necesidad.\n2. Selecciona el proyecto al cual corresponde el requerimiento que deseas radicar.\n3. Adjunta los archivos necesarios para la solicitud. Puedes adjuntar hasta 4 archivos opcionales adicionales.\n4. Revisa que toda la información esté completa y luego haz clic en el botón 'Enviar' para enviar el requerimiento a revisión."
+      ]
+    },
+    {
+      "tag": "Administracion_proyecto",
+      "patterns": [
+        "¿Cómo gestionar la administración del proyecto?",
+        "¿Qué es la administración del proyecto en la herramienta?",
+        "¿Cómo radicar solicitudes de creación de inventarios en la herramienta?"
+      ],
+      "responses": [
+        "Para gestionar la administración del proyecto en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo 'Administración del Proyecto' para radicar solicitudes de creación de inventarios y consultar los PDFs con referencias de recaudo generadas para un proyecto.\n2. Descarga la plantilla para el diligenciamiento del inventario si es necesario crear un nuevo inventario.\n3. Completa la plantilla con la información requerida y realiza la solicitud de creación de inventario a través de la herramienta.\n4. Puedes filtrar la bandeja de inventarios por código o nombre del proyecto para revisar las solicitudes realizadas o en proceso."
+      ]
+    },
+    {
+      "tag": "Bandeja_consulta_inventarios",
+      "patterns": [
+        "¿Cómo consultar los inventarios?",
+        "¿Qué es la bandeja de consulta de inventarios?",
+        "¿Cómo gestionar los inventarios en la herramienta?"
+      ],
+      "responses": [
+        "Para utilizar la bandeja de consulta de inventarios en la herramienta, sigue estos pasos:\n\n1. Ingresa a la bandeja de consulta de inventarios para revisar las solicitudes de creación de inventario que se han realizado o están en proceso de gestión.\n2. Descarga la plantilla de inventario para el diligenciamiento del inventario si necesitas crear uno nuevo.\n3. Puedes filtrar la bandeja por código o nombre del proyecto para encontrar las solicitudes correspondientes.\n4. Desde la bandeja también puedes revisar el inventario cargado o descargar los PDFs de referencia generados para las unidades inmobiliarias."
+      ]
+    },
+    {
+      "tag": "Plantilla_inventario",
+      "patterns": [
+        "¿Cómo diligenciar la plantilla de inventario?",
+        "¿Qué es la plantilla de inventario?",
+        "¿Cómo utilizar la plantilla de inventario en la herramienta?"
+      ],
+      "responses": [
+        "Para diligenciar la plantilla de inventario en la herramienta, sigue estos pasos:\n\n1. Descarga la plantilla desde la opción correspondiente en la bandeja de consulta de inventarios.\n2. Diligencia todos los campos obligatorios marcados en color naranja. Los campos opcionales están en color azul y no es necesario completarlos si el proyecto no los requiere.\n3. Las columnas de texto libre son alfanuméricas y no deben tener más de 10 caracteres.\n4. No agregues ni elimines columnas en el archivo.\n5. Una vez completada, sube la plantilla diligenciada a la herramienta siguiendo las instrucciones del sistema."
+      ]
+    },
+    {
+      "tag": "Cargar_nuevo_inventario",
+      "patterns": [
+        "¿Cómo cargar un nuevo inventario?",
+        "¿Qué pasos seguir para cargar un inventario en la herramienta?",
+        "¿Cómo cargar un inventario nuevo en el sistema?"
+      ],
+      "responses": [
+        "Para cargar un nuevo inventario en la herramienta, sigue estos pasos:\n\n1. Ingresa a la opción 'Realizar solicitud de inventario' dentro del módulo de administración de inventarios.\n2. Selecciona el proyecto al cual deseas realizar la solicitud de creación de inventario.\n3. Diligencia la información requerida, como la etapa de venta a la cual pertenece el inventario.\n4. Sube la plantilla de inventario previamente diligenciada. El archivo debe estar en formato Excel (.XLS), no debe contener puntos (.) en el nombre, y su tamaño máximo permitido es de 20 MB.\n5. Una vez todos los campos estén diligenciados y la plantilla cargada, selecciona 'Enviar' para completar la solicitud."
+      ]
+    },
+    {
+      "tag": "Validaciones_inventario_cargado",
+      "patterns": [
+        "¿Cómo se validan los inventarios cargados?",
+        "¿Qué validaciones se hacen al cargar un inventario?",
+        "¿Cómo revisar las validaciones del inventario cargado?"
+      ],
+      "responses": [
+        "Para realizar las validaciones de forma del inventario cargado en la herramienta, sigue estos pasos:\n\n1. Una vez la solicitud de inventario ha sido enviada, regresa a la bandeja de inventarios para conocer el resultado de las validaciones de forma.\n2. El sistema valida que el archivo haya sido diligenciado correctamente, revisando que no falten campos obligatorios, que no existan datos duplicados o repetidos, y que no se hayan agregado o eliminado columnas o hojas adicionales.\n3. Para novedades de inventario, se valida que las unidades inmobiliarias a agregar no existan previamente y que las unidades a eliminar no estén asociadas a vinculaciones en proceso o aprobadas.\n4. Si el archivo no cumple con las condiciones requeridas, descarga el archivo con las observaciones, corrige los errores y vuelve a cargarlo en el sistema."
+      ]
+    },
+    {
+      "tag": "Estados_solicitud_inventario",
+      "patterns": [
+        "¿Cuáles son los estados de una solicitud de inventario?",
+        "¿Cómo saber el estado de una solicitud de inventario?",
+        "¿Qué significa cada estado de una solicitud de inventario?"
+      ],
+      "responses": [
+        "Los estados de una solicitud de inventario en la herramienta son los siguientes:\n\n1. **Pendiente/Modificar**: La solicitud está en estado pendiente cuando no ha sido enviada o contiene errores. La solicitud permanecerá 30 días en la bandeja para su gestión; después de este tiempo será eliminada.\n\n2. **En proceso**: La solicitud está siendo gestionada por parte del equipo de la Fiduciaria y tiene una promesa de servicio de 3 días hábiles.\n\n3. **Aprobado**: Indica que la solicitud fue gestionada con éxito y se ha creado el inventario. La solicitud permanecerá 30 días en la bandeja antes de ser eliminada.\n\n4. **Devuelto**: La solicitud tiene observaciones que deben ser subsanadas por la sala de ventas. Si no se corrigen en 90 días, la solicitud será eliminada.\n\n5. **Rechazado**: La solicitud fue rechazada por motivos internos o errores en la radicación del caso y no puede ser gestionada."
+      ]
+    },
+    {
+      "tag": "Novedades_inventario",
+      "patterns": [
+        "¿Cómo gestionar novedades de inventario?",
+        "¿Qué son las novedades de inventario?",
+        "¿Qué pasos seguir para registrar novedades de inventario?"
+      ],
+      "responses": [
+        "Para gestionar novedades de inventario en la herramienta, sigue estos pasos:\n\n1. Ingresa al módulo de inventarios y selecciona la opción para registrar una novedad de inventario.\n\n2. Las novedades de inventario pueden incluir:\n- **Adición de unidades inmobiliarias**: Asegúrate de que las unidades que se van a agregar no existan previamente en el inventario cargado.\n- **Eliminación de unidades inmobiliarias**: Verifica que las unidades a eliminar existan en el inventario y no estén asociadas a vinculaciones en proceso o aprobadas.\n\n3. Carga la plantilla de inventario diligenciada solo con las unidades que se van a agregar o eliminar, según corresponda la novedad.\n\n4. Asegúrate de contar con el soporte contractual (otrosí al contrato fiduciario) para aplicar la novedad. Si no cuentas con este documento, la novedad no será procesada."
+      ]
+    },
+    {
+      "tag": "Bandeja_consulta_pdf_referencia",
+      "patterns": [
+        "¿Cómo consultar los PDFs de referencia?",
+        "¿Qué es la bandeja de consulta de PDF con referencia?",
+        "¿Cómo descargar los PDFs de referencia en la herramienta?"
+      ],
+      "responses": [
+        "Para utilizar la bandeja de consulta de PDF con referencia en la herramienta, sigue estos pasos:\n\n1. Ingresa a la bandeja de consulta de PDF con referencia para visualizar o descargar los PDFs de referencia generados para un proyecto en particular.\n\n2. Puedes buscar las referencias por cliente o por unidad inmobiliaria para facilitar la localización de los documentos.\n\n3. Desde esta bandeja, podrás visualizar previamente la información de la referencia o descargar el PDF con el detalle correspondiente a las unidades inmobiliarias asociadas."
+      ]
     }
   ]
 }
